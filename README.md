@@ -1,6 +1,6 @@
 # tfg-Gantt
 
-
+```mermaid
 gantt
     title DIAGRAMA DE GANTT - GESTOR DE BIBLIOTECA
     dateFormat YYYY-MM-DD
@@ -27,3 +27,4 @@ gantt
 
     section Presentación
     Preparación y presentación         :a8, 2027-01-04, 5d
+```
