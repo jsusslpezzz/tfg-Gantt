@@ -2,33 +2,28 @@
 
 
 gantt
-    title Cronograma del TFG - Sistema de Gestión de Biblioteca
+    title DIAGRAMA DE GANTT - GESTOR DE BIBLIOTECA
     dateFormat YYYY-MM-DD
     axisFormat %d/%m
+    tickInterval 1week
     excludes weekends
 
     section Planificación
-    Análisis de requisitos          :a1, 2026-11-09, 3d
-    Diseño de casos de uso          :a2, after a1, 2d
-    Diseño de la base de datos      :a3, after a2, 3d
-
-    section Base de datos
-    Creación de tablas en MySQL     :b1, after a3, 3d
-    Inserción de datos de prueba   :b2, after b1, 2d
+    Análisis y diseño de la BBDD       :a1, 2026-11-09, 5d
 
     section Desarrollo
-    Diseño de la interfaz          :c1, after b2, 3d
-    Gestión de usuarios             :c2, after c1, 3d
-    Gestión de libros               :c3, after c2, 4d
-    Gestión de préstamos y devoluciones :c4, after c3, 4d
-    Búsqueda y disponibilidad       :c5, after c4, 3d
+    Desarrollo del backend             :a2, 2026-11-16, 15d
+    Desarrollo del frontend            :a3, 2026-11-23, 10d
 
-    section Integración y pruebas
-    Conexión e integración          :d1, after c5, 2d
-    Pruebas de funcionamiento       :d2, after d1, 3d
-    Corrección de errores           :d3, after d2, 2d
+    section Integración
+    Integración de componentes         :a4, 2026-12-07, 5d
 
-    section Finalización
-    Elaboración de documentación    :e1, after d3, 4d
-    Revisión final del proyecto     :e2, after e1, 2d
-    Preparación de la presentación  :e3, after e2, 2d
+    section Pruebas
+    Prueba del sistema                 :a5, 2026-12-14, 5d
+    Corrección de errores y mejoras    :a6, 2026-12-21, 5d
+
+    section Documentación
+    Memoria y documentación            :a7, 2026-11-09, 35d
+
+    section Presentación
+    Preparación y presentación         :a8, 2027-01-04, 5d
